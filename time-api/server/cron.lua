@@ -12,7 +12,7 @@ function RunAt(h, m, cb)
 end
 
 function GetUnixTimestamp()
-    return GetTime().unixtime
+    return GetTime()
 end
 
 function OnTime(time)
