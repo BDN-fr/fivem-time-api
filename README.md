@@ -3,7 +3,7 @@ A script that allows you to have one hour on your correct time zone without havi
 
 # Usage :
 ```lua
-exports['time-api']:GetTime() → return the unixtime for your time zone
+exports['time-api']:GetTime() --→ return the unixtime for your time zone
 
 -- Execute task 5:10, every day
 function CronTask(d, h, m)
