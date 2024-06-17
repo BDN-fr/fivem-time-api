@@ -2,10 +2,8 @@
 A script that allows you to have one hour on your correct time zone without having to change/do calculations to have the right time in your scripts.
 
 # Usage :
-```
-exports['time-api']:GetTime() → return https://worldtimeapi.org/api/timezone/Europe/Paris (Because Config.TimeZone = 'Europe/Paris') as array
-
-exports['time-api']:GetTime({TimeZone = 'Europe/London'}) → return https://worldtimeapi.org/api/timezone/Europe/London as array
+```lua
+exports['time-api']:GetTime() → return the unixtime for your time zone
 
 -- Execute task 5:10, every day
 function CronTask(d, h, m)
