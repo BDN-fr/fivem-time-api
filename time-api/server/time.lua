@@ -18,3 +18,5 @@ function Init()
         TimeDiff = os.time() - json.decode(data).unixtime
     end)
 end
+
+Init()
